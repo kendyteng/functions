@@ -1,3 +1,5 @@
+#' this is a function to row_bind the dataframes that have similar structure in the same list 
+
 bind_LD <- function(x) {
   library(package)
   
