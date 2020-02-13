@@ -1,4 +1,6 @@
 bind_LD <- function(x) {
+  library(package)
+  
   # create a data to put the data
   df_bind <- data.frame()
   
