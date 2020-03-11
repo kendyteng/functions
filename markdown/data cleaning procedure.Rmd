@@ -1,0 +1,36 @@
+---
+title: "data_clean"
+author: "Kendy Teng"
+date: "2/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source("G:/Mi unidad/Statistics/R-stats/R function/my functions/functions/script/data_clean.R")
+```
+
+## Intro
+This is a document to guide you for the process of data cleaning that I presonally prefere. Everyone has their own way to go about data cleaning, but there are some guidelines to follow. 
+
+I use information from:\
+1. Broeck _et al._, 2005. Data Cleaning: Detecting, Diagnosing, and Editing Data Abnormalities.\
+2. Elgabry, 2019. [The Ultimate Guide to Data Cleaning.](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4)\
+3. My personal experience
+
+### Have a grip on your dataset 
+To get the big picture of the dataset is the extremely important first step when you start to do everthing else. 
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

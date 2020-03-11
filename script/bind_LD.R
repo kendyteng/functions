@@ -1,7 +1,7 @@
 #' this is a function to row_bind the dataframes that have similar structure in the same list 
 
 bind_LD <- function(x) {
-  library(package)
+  library(dplyr)
   
   # create a data to put the data
   df_bind <- data.frame()
